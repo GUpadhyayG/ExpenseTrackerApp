@@ -14,7 +14,10 @@ import java.util.List;
 public interface ExpenseDao {
 
     @Insert
-    public static void insert(Expense expense);
+    public static void insert(Expense expense) {
+
+    }
+
     @Update
     public void update(Expense expense);
 

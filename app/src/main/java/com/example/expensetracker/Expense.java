@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 import org.intellij.lang.annotations.PrintFormat;
 
  @Entity (tableName = "my_expenses")
-public class Expense {
+   public class Expense {
 
     private String expense;
     private String earning;
